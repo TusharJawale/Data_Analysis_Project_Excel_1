@@ -83,8 +83,8 @@ Create a resultant CSV / Excel file with the following columns:
 <br>
 <br>
 Create a summary table as follow:
-Question | Count | Amount (Rs.)
-Total orders where X has been correctly charged
-Total Orders where X has been overcharged
-Total Orders where X has been undercharged
+Question | Count | Amount (Rs.)<br>
+<ol>Total orders where X has been correctly charged</ol>
+<ol>Total Orders where X has been overcharged</ol>
+<ol>Total Orders where X has been undercharged</ol>
 </p>
