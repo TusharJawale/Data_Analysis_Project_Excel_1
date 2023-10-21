@@ -1,5 +1,10 @@
 # Data Analysis Project - Excel 1
+
+There are 5 Excel files that contain the raw data.
+The Export Billing Data Analysis.xlsx file contains the data cleaning and analysis in order to find the difference between Expected Charges and Billed Charges.
+<br>
 <p>
+<br>
 Your client has a large e-commerce company in India (let’s call it X).
 X gets a thousand orders via their website on a daily basis and they have to deliver them as fast
 as they can. For delivering the goods ordered by the customers, X has tied up with multiple
@@ -27,7 +32,8 @@ company in their CSV invoice per Order ID. The courier company calculates the we
 slabs that are applicable to that delivery zone, so first you have to figure out the total
 weight of the shipment and then figure out the applicable weight (based on the zone’s weight
 slab).
-
+<br>
+<br>
 For example:
 Total Weight Applicable Zone Applicable Weight
 Slab (based on zone)
@@ -58,24 +64,24 @@ the amount of the order
 If the order amount is less than equal to 300 then the COD charge is 15
 Else the COD charge is 5% of the Order Amount
 ● Total Charges = Total forward charge + Total RTO charge + COD charge.
-
-  
+<br>
+<br>
 <h3>Output</h3>
 <br>
 Create a resultant CSV / Excel file with the following columns:
-● Order ID
-● AWB Number
-● Total weight as per X (KG)
-● Weight slab as per X (KG)
-● Total weight as per Courier Company (KG)
-● Weight slab charged by Courier Company (KG)
-● Delivery Zone as per X
-● Delivery Zone charged by Courier Company
-● Expected Charge as per X (Rs.)
-● Charges Billed by Courier Company (Rs.)
-● Difference Between Expected Charges and Billed Charges (Rs.)
-
-
+<ol>● Order ID</ol>
+<ol>● AWB Number</ol>
+<ol>● Total weight as per X (KG)</ol>
+<ol>● Weight slab as per X (KG)</ol>
+<ol>● Total weight as per Courier Company (KG)</ol>
+<ol>● Weight slab charged by Courier Company (KG)</ol>
+<ol>● Delivery Zone as per X</ol>
+<ol>● Delivery Zone charged by Courier Company</ol>
+<ol>● Expected Charge as per X (Rs.)</ol>
+<ol>● Charges Billed by Courier Company (Rs.)</ol>
+<ol>● Difference Between Expected Charges and Billed Charges (Rs.)</ol>
+<br>
+<br>
 Create a summary table as follow:
 Question | Count | Amount (Rs.)
 Total orders where X has been correctly charged
